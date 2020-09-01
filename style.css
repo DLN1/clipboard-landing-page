@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+
+@media (max-width: 576px) {
+body {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1 {
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    font-size: 2rem;
+}
+
+h4 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    color: hsl(210, 10%, 33%);
+}
+
+h5 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+a {
+    color: hsl(210, 10%, 33%);
+}
+
+a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+.image_full{
+    display: none;
+}
+
+.image_mobile {
+    display: block;
+    
+}
+
+.rwd-line {
+    display: block;
+    text-align: center;
+}
+
+.header {
+    position: absolute;
+    
+    width: 100%;
+}
+
+.cimg {
+    display: block;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+
+.space {
+    margin-top: 130px;
+}
+
+.computer {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 320px;
+}
+
+.devices {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 360px;
+}
+
+#ios {
+    font-weight: 600;
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 60px;
+    border-radius: 50px;
+    background-color: hsl(171, 66%, 44%);
+    border: 0;
+}
+
+#mac {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 60px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+#botbg {
+    background-color: #F2F1F9;
+    padding-top: 50px;
+    
+}
+}
+
+@media (min-width: 576px) {
+    body, html {
+        font-size: 18px;
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+    
+    h1 {
+        font-family: 'Bai Jamjuree';
+        font-weight: 600;
+        color: hsl(210, 10%, 33%);
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%);
+        text-align: center;
+    }
+    
+    h4 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        color: hsl(210, 10%, 33%);
+    }
+    
+    h5 {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        color: hsl(201, 11%, 66%);
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+
+    a {
+        color: hsl(210, 10%, 33%);
+    }
+
+    a:hover {
+        color: hsl(171, 66%, 44%);
+    }
+    
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    .textstart {
+        text-align: start;
+    }
+
+    .image_full{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    
+    .image_mobile {
+        display: none;
+    }
+    
+    .rwd-line {
+        white-space: normal;
+        margin: auto;
+        text-align: center;
+        
+    }
+    
+    .header {
+        position: absolute;
+        margin: auto;
+        width: 100%;
+    }
+    
+    .cimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+    
+    .space {
+        margin-top: 130px;
+    }
+    
+    .computer {
+        display: block;
+        margin-left: -240px;
+        height: auto;
+        width: 720px;
+    }
+    
+    .devices {
+        display: block;
+        margin: auto;
+        height: auto;
+        width: 960px;
+    }
+    
+    #ios {
+        font-weight: 600;
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: hsl(171, 66%, 44%);
+        border: 0;
+        font-size: 1rem;
+    }
+    
+    #mac {
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: 60px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    
+    #botbg {
+        background-color: #F2F1F9;
+        padding-top: 50px;
+        
+    }
+
+    
+}
